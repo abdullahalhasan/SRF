@@ -78,10 +78,7 @@ body {
 	text-decoration: underline;
 }
 
-#container input {
-	width:auto;
-	height:auto;
-}
+
 
 #wrapper{
 	width: auto;
@@ -125,12 +122,22 @@ select {
     border: none;
     color: white;
 	border-radius:12px;
-    padding: 8px 28px;
+    padding: 12px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
 	font-style:bold;
+}
+
+#container input {
+	width:auto;
+	height:auto;
+	padding: 4px;
+	background-color: #80cbc4;
+	color:#004d40;
+	font-size: 15px;
+	font-style: bold;
 }
 
 .check{
